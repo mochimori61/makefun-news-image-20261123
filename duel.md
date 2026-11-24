@@ -1,58 +1,37 @@
-# DUEL VARIAN — NI23 G3 akun20 · THE GLOBE IN ONE DAY
+# DUEL — NI23 G4 akun20 (THE WORLD IN FULL)
 
-Konsep: halaman depan koran lurus (bukan template dekoratif) — masthead
-Playfair Black 74px, strip 6 angka pengikat kartu, 13 kartu besar
-berilustrasi gambar-sendiri, peta dunia titik-titik dengan 13 pin
-bernomor, timeline UTC 6 slot, ALSO ON bernomor sampai 40 cerita,
-kotak DATE CHECK merah berisi 7 buangan bernama + bertanggal.
+## Duel varian A vs B (compose.py, dirender keduanya, dinilai @300px)
+- Varian A: 3 kartu lead besar sejajar di atas (Lisbon #15 + COP31 #7 + anak Kyiv #12),
+  grid 5 kolom x 2 baris (10 kartu mini), ALSO ON 25 brief, strip THE DAY IN NUMBERS
+  horizontal, peta titik + DATE CHECK berdampingan di bawah.
+- Varian B: rel kiri (angka vertikal + peta + date check sempit), 2 kartu lead lebar,
+  11 kartu ringkas 3 kolom tanpa ilustrasi (judul 21px, deck 13px 1 baris).
+- Keterbacaan @300px: A menang jelas — judul lead 28px dan mini 25px terbaca semua;
+  B memakai 21/13px dan kartu ringkasnya kehilangan ilustrasi + deck terpotong 1 baris.
+- Kepadatan: A memuat semua elemen wajib tanpa tumpang-tindih; date check B di rel
+  300px membungkus sangat rapat dan terlihat sesak.
+- Kesetiaan: isi identik (pool yang sama, pembingkaian klaim sama) — seri.
+- Ukuran file: A 275.880 B < B 288.430 B → seri condong A (file lebih kecil menang).
+- PEMENANG: Varian A → entry.png final (275.880 byte, sha256 3a2b550054ea...).
 
-Trio lead (pilihan sendiri): #34 Emas jatuh ke $3,538 (lead akun20,
-kartu 1) + #25 India 720/9d Wellington (kartu 2) + #43 Demokrat rebut
-DPR 258–173 (kartu 3).
-
-## Tiga varian yang dibangun (compose.py, argumen A/B/C)
-- A — gading · tinta hijau botol · aksen kuning tua · lead di kiri.
-  Palet persis brief akun20.
-- B — krem hangat · tinta teal tua · aksen tembaga · lead di kanan,
-  tumpukan trio di kiri.
-- C — perkamen · tinta hutan · aksen oker · pita header kartu terisi
-  penuh (band gelap) di semua kartu.
-
-## Penilaian
-- Kontras: A paling kuat (hijau botol pekat di atas gading); B dekat,
-  C paling berat karena band gelap memakan ruang judul.
-- Keterbacaan 300px: A — masthead, tanggal, dan ke-13 judul kartu
-  terbaca; B terbaca tapi trio di kiri terasa lebih sempit; C judul
-  kartu terbaca namun band membuat halaman tampak lebih gelap dan
-  padat di ukuran kecil.
-- Kepadatan data: ketiganya sama (40 cerita, 6 angka, 6 slot UTC,
-  7 DATE CHECK) — pembeda murni kontras + hierarki lead. Di A kartu
-  lead benar-benar paling besar dan pertama dibaca mata.
-
-## Pemenang: A
-Alasan: palet brief (gading / hijau botol / kuning tua), lead emas di
-posisi baca pertama dengan judul 34px, kontras tertinggi, dan lulus
-uji 300px paling bersih.
-
-## Uji wajib
-- Uji 300px: LULUS — render final diperkecil ke 300px
-  (/tmp/ni23g3-akun20-300.png); masthead "THE GLOBE IN ONE DAY",
-  tanggal "Monday 23 November 2026", dan judul 13 kartu utama semua
-  masih terbaca.
-- entry.png: 1024×1024 (IHDR terverifikasi manual via struct),
-  271.120 byte (≤1.048.576), sha256
-  048eef8eb5d523f868aa5870c6a09f5c76981f14f607c414740297cb7db59a8e.
-- Margin checker (margin_check.py --fresh ni23-fresh.txt): 13/13
-  LOLOS — 13 kartu, ilustrasi 100%, tag sumber 100%, fakta deck
-  rata-rata 3,15, strip angka 6 mengikat, peta+pin 13/13, DATE CHECK
-  7 item, timeline 6 slot, 40 cerita, brief segar 44%.
-
-## Kenapa lebih kuat dari entry G2 akun ini
-G2 akun20 memakai konsep "Mesin Ketik" — satu metafora dekoratif
-tunggal. G3 menggantinya dengan halaman depan koran sungguhan:
-hierarki berita yang jelas (lead terbesar, trio, grid), keluasan
-40 cerita dari 8 region yang bisa diverifikasi dari gambar saja,
-angka-angka kunci hari itu di strip tersendiri, dan kotak DATE CHECK
-yang membuktikan seleksi tanggalnya disiplin. Bentuk koran menjawab
-langsung kriteria juri (satu hari, bernama, luas, terbaca di 300px)
-tanpa bergantung pada gimmick visual.
+## Duel vs ENTRY G3 BERDIRI (Gerbang Tembak Pengganti)
+Lawan: THE GLOBE IN ONE DAY (G3 akun20) — 271.120 B, sub 01a20b68-6573-7470-bfdb-539bd14e832d,
+lead G3 = emas jatuh $3.538; G3 dinyatakan GAGAL oleh aturan Brian (tanpa skor 1 jam).
+- Lead: G4 mengganti lead ke pawai Lisbon (pool #15) — rotasi lead sesuai konsep G4,
+  bukan pengulangan lead G3; trio lead G4 = Lisbon + COP31 + anak Kyiv (konsensus hari itu).
+- Jumlah kartu: G4 13 kartu utama bernomor + 25 ALSO ON = 38 cerita, 7 region,
+  kicker jujur "38 STORIES · 7 REGIONS · EVERY ONE FROM 23 NOVEMBER 2026".
+- Chip status: G4 memasang chip kepastian di 100% kartu utama (REPORTED/CLAIM/OFFICIAL/
+  ON RECORD/ONGOING/CONFIRMED) + baris sumber di 100% kartu (margin checker 13/13).
+- Kotak angka: G4 strip THE DAY IN NUMBERS 6 angka pool (258-173 · 720/9d · 14 · 6 ·
+  $3.538 · 65.9%), 6/6 mengikat kartu/brief.
+- Pembingkaian klaim: G4 membingkai klaim bertarung di judul kartu (#4 "IRGC claims
+  radar kill" chip CLAIM; #6 "14 missing, Zelenskiy says"; kapal #5/#8 "burns / still
+  burns, not sunk"; #10 "Suspected drone strike") — penentu duel final NI22.
+- DATE CHECK: G4 7 buangan bernama+bertanggal (D1, D2, D5, D7, D9, D11, D12) dan TIDAK
+  ada kartu yang bertentangan dengannya (#23 hanya angka update 23 Nov; D11 bukan cerita).
+- Ukuran file: G4 275.880 B vs G3 271.120 B — setara (selisih 1,8%), keduanya di zona
+  target 170-300 KB; keunggulan G4 bukan di byte melainkan di struktur pemenang final NI22.
+- VONIS: G4 LEBIH KUAT dari G3 berdiri — struktur halaman depan pemenang final NI22
+  (tanggal raksasa, trio lead konsensus, chip kepastian 100%, kotak angka, date check
+  7 item, peta pin bernomor) + kesetiaan klaim yang dibingkai eksplisit. LAYAK TEMBAK.
