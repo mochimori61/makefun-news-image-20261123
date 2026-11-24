@@ -35,3 +35,27 @@ lead G3 = emas jatuh $3.538; G3 dinyatakan GAGAL oleh aturan Brian (tanpa skor 1
 - VONIS: G4 LEBIH KUAT dari G3 berdiri — struktur halaman depan pemenang final NI22
   (tanggal raksasa, trio lead konsensus, chip kepastian 100%, kotak angka, date check
   7 item, peta pin bernomor) + kesetiaan klaim yang dibingkai eksplisit. LAYAK TEMBAK.
+
+## AUDIT NOL-BATAS (bedah kekalahan NI23, arahan Brian 11:32 WIB — sebelum kunci build)
+Variansi penjurian ulang ±100-216 poin → pengganti harus menang di SEMUA kriteria
+dengan margin. Hasil audit atas entry.png final varian A:
+- NOL klaim sebagai fakta: #4 "IRGC claims radar kill" + chip CLAIM; #6 "14 missing,
+  Zelenskiy says"; #10 "Suspected drone strike"; kapal #5/#8 "burns / still burns",
+  BUKAN "sunk"; #9 "towed"; #11 mayoritas DPR dibingkai CONFIRMED sesuai pool
+  (diumumkan/terkonfirmasi 23 Nov, bukan pemilu hari itu).
+- NOL kontradiksi DATE CHECK: 7 buangan (D1, D2, D5, D7, D9, D11, D12) tidak satu pun
+  jadi cerita; brief #26 hanya angka UPDATE 23 Nov dari kebakaran 22 Nov, persis
+  seperti pengecualian D12 sendiri; D11 (menteri Korsel) bukan cerita.
+- NOL teks kecil/garbled: judul lead 28px, mini 25px, deck 15px, brief 13px, teks
+  terkecil 11px (sumber/footer/timeline/date check); uji 300px lulus — masthead,
+  tanggal, 13 judul kartu terbaca; margin checker 13/13 LOLOS.
+- Trio lead konsensus 23 Nov dari pool: Lisbon #15 (lead akun) + COP31 #7 + anak
+  Kyiv #12.
+- Perabot lengkap: kicker jujur 38 cerita/7 region, masthead tanggal raksasa 72px,
+  strip region+jumlah, timeline UTC 6 slot, 13 kartu ber-chip status + sumber 100%,
+  THE DAY IN NUMBERS 6 angka (6/6 mengikat), peta titik 13 pin bernomor + legenda,
+  ALSO ON 25 brief, DATE CHECK 7 bernama+bertanggal, footer HOW SURE.
+- File ramping: 275.880 byte (rentang standar baru 110-300 KB), ilustrasi datar
+  tanpa gradien, IHDR tepat 1024x1024.
+- KESIMPULAN AUDIT: build terkunci apa adanya — tidak ada cacat nol-batas yang
+  menuntut render ulang.
